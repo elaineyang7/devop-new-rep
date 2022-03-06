@@ -1,0 +1,12 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+# install packages
+brew 'tree'
+brew 'git'
+brew 'ansible'
+brew 'java'
+brew 'maven'
+brew 'gradle'
+brew 'gh'
