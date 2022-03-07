@@ -1,0 +1,9 @@
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "geerlingguy/centos7"
+
+  # Shell provisioning
+  config.vm.provision "shell" do |s|
+    s.path = "provision/setup.sh"
+  end
+end
